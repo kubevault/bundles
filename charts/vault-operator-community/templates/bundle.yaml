@@ -36,5 +36,5 @@ spec:
   - bundle:
       name: csi-vault-community
       url: https://bundles.byte.builders/stable
-      version: v2021.07.14-rc.0
+      version: v2021.08.02
 status: {}
