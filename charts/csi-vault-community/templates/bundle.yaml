@@ -22,7 +22,8 @@ spec:
       - HashiCorp Vault CSI Driver for Kubernetes
       name: csi-vault
       required: true
-      url: https://charts.appscode.com/stable/
+      sourceRef:
+        name: ""
       versions:
       - version: v0.4.0-rc.0
 status: {}

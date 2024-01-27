@@ -22,7 +22,8 @@ spec:
       - Vault Operator by AppsCode - HashiCorp Vault Operator for Kubernetes
       name: vault-operator
       required: true
-      url: https://charts.appscode.com/stable/
+      sourceRef:
+        name: ""
       versions:
       - version: v0.4.0-beta.0
   - chart:
@@ -30,11 +31,13 @@ spec:
       - Vault Catalog by AppsCode - Catalog for Vault versions
       name: vault-catalog
       required: true
-      url: https://charts.appscode.com/stable/
+      sourceRef:
+        name: ""
       versions:
       - version: v0.4.0-beta.0
   - bundle:
       name: csi-vault-community
-      url: https://bundles.byte.builders/stable
-      version: v2023.9.7
+      sourceRef:
+        name: ""
+      version: v2024.1.26-rc.0
 status: {}
